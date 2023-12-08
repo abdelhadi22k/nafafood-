@@ -29,7 +29,7 @@ app.use((err, req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("hello worled");
+  res.send("hello world");
 });
 
 mongoose
