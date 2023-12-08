@@ -1,0 +1,24 @@
+
+
+.navbarcategory{
+    border: 3px solid #fff;
+    width: 100%;
+}
+.categoryContainer{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+}
+.categoryContainer{
+  padding: 20px;
+}
+.category{
+  padding: 20px;
+}
+.activ{
+  padding: 20px;
+
+  background-color: blueviolet;
+}

@@ -1,0 +1,101 @@
+
+.color {
+    color: #610094;
+    color: #3f0071;
+    color: #150050;
+    color: #000;
+  }
+  :root {
+    --main1-color: #65c18c;
+    --main2-color: #c1f4c5;
+    --main3-color: #ffbed8;
+    --main4-color: #ff7ba9;
+  }
+.subscribe{
+    color: #fff;
+    height: 210px;
+    width: 100%;
+    background-color: #65c18c;
+}
+.subscribeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.subscribeContainer h3{
+    margin-top: 32px;
+}
+.subscribeContainer input{
+    margin-top: 32px;
+    background-color:#000;
+    width: 345px;
+    height: 40px;
+    border-radius: 8px;
+}
+.subscribeContainer input:focus{
+    outline: none;
+    border: none;
+}
+.subscribeContainer button{
+    background-color: #000;
+    border-radius: 8px;
+    margin-top: 16px;
+    color:#fff;
+    height: 30px;
+    width: 94px;
+}
+
+
+.Created{
+    height: 375px;
+    width: 100%;
+    background-color: #000;
+}
+.CreatedContainer{
+    margin-top: 64px;
+}
+.footerinfo{
+    color: #fff;
+
+    text-align: start;
+}
+.footerinfo p{
+    color: #fff;
+
+    opacity: 0.5;
+}
+.copryt span{
+    color:#65c18c;
+}
+.footerlinks {
+    text-align: start;
+}
+.footerlinks ul{
+    opacity: 0.5;
+    color: #fff;
+}
+.footercontect{
+    
+    text-align: start;
+}
+.footercontect p {
+    color: #fff;
+
+    opacity: 0.7;
+}
+.footercontect i{
+color:#65c18c ;
+}
+.emailLink{
+    width: 345px;
+    height: 40px;
+    padding: 2px 100px;
+    background-color: #65c18c;
+    border-radius: 8px;
+    text-decoration: none;
+    color:#fff;
+}
+.emailLink:hover{
+    color:#fff;
+
+}

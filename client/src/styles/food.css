@@ -1,0 +1,197 @@
+:root {
+  --main1-color: #65c18c;
+  --main2-color: #c1f4c5;
+  --main3-color: #ffbed8;
+  --main4-color: #ff7ba9;
+}
+.mainFoodInf {
+  font-weight: bold;
+}
+.foodSection {
+  padding-top: 100px;
+}
+
+.foodPage {
+  padding-top: 32px;
+  padding-bottom: 128px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foodContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+.foodBox {
+  margin: 16px 0;
+  /* border: 2px solid var(--main1-color); */
+  border-radius: 8px;
+  width: 265px;
+  height: 180px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foodBox h6 {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+}
+.foodInfo {
+  z-index: 1;
+  width: 100%;
+  height: 75px;
+  margin-top: 128px;
+  color: #fff;
+  position: absolute;
+}
+.foodInfoOpsty {
+  bottom: 0px;
+  background-color: #000;
+  border-radius: 100% 100% 8px 8px;
+  width: 98%;
+  height: 75px;
+  position: absolute;
+  opacity: 0.4;
+}
+.foodInfo i {
+  color: var(--main1-color);
+}
+.foodInfo div {
+  /* opacity: 1; */
+  margin-left: 4px;
+  margin-right: 8px;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foodImg {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.foodSlider {
+  padding-top: 100px;
+}
+.imgSlider {
+  width: 80vw;
+}
+.allfoodhoder {
+  width: 100%;
+  display: flex;
+}
+.allfoodImghode {
+  margin-right: 10%;
+}
+.allfoodInfohode {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.allfoodInfohode div{
+  text-align: start;
+  align-items: start;
+
+}
+.allfoodInfohode div i{
+  color: var(--main1-color);
+}
+.allfoodBox{
+  margin: 16px 0;
+}
+.allfoodInfo{
+  width: 70%;
+  margin-top: 32px;
+}
+.allfoodInfo div{
+  display: flex;
+  margin-bottom: 8px;
+}
+.reviewsspan{
+width: 28px;
+background-color: #000;
+}
+.allfoodInfo p{
+  font-size: 12px;
+}
+.allfoodImg {
+  border-radius: 8px;
+  width: 265px;
+  height: 180px;
+}
+.Ling {
+  width: 100%;
+  height: 4px;
+  background-color: var(--main1-color);
+}
+.allfoodOrder{
+  margin-top: 16px;
+  width: 250px;
+  align-items: end;
+  display: flex;
+  justify-content: space-between;
+}
+.allfoodPrice{
+  margin-top: 32px;
+  width: 250px;
+  align-items: end;
+  display: flex;
+  justify-content: space-between;
+
+}
+.allfoodOrder button{
+  color: #fff;
+  border-radius: 8px;
+ padding: 4px 8px;
+  border: none;
+  background-color: var(--main1-color);
+}
+.sampBorder{
+ padding: 4px 8px;
+ border-radius: 8px;
+font-weight: 400;
+  border: 1px var(--main1-color) solid;
+}
+.allfoodQuantity{
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  /* border-radius: 8px; */
+  border: none;
+}
+
+.allfoodQuantity div{
+
+  width: 55px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  border: var(--main1-color);
+  border: 1px var(--main1-color) solid;
+  border-radius: 8px;
+
+}
+.allfoodQuantity div button{
+  background-color: #fff;
+  font-weight: bold;
+  border: none;
+}
+.qontur{
+  text-align: center;
+  width: 20px;
+  height: 25px;
+  border-right:1px var(--main1-color) solid ;
+  border-left: 1px  var(--main1-color) solid;
+}
+
+.singelFood{
+  padding-top: 150px;
+}

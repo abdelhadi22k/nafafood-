@@ -1,0 +1,133 @@
+body {
+  font-family: "Comfortaa", sans-serif;
+}
+
+:root {
+  --main1-color: #65c18c;
+  --main2-color: #c1f4c5;
+  --main3-color: #ffbed8;
+  --main4-color: #ff7ba9;
+}
+
+/* Navbar style */
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1000;
+}
+.navBarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainLink {
+  margin-left: 16px;
+  text-decoration: none;
+  color: #000;
+}
+.mainLink:hover {
+  color: var(--main1-color);
+}
+.linkContainer {
+  margin-left: 25%;
+}
+.formButtons {
+  border: none;
+  background-color: var(--main1-color);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+#basic-nav-dropdown {
+  color: #000;
+}
+.checkout-steps {
+  padding-top: 100px;
+}
+.shipping {
+  text-align: start;
+}
+.searchBoxHolder {
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+}
+.searchContener {
+  padding: 2%;
+  padding-top: 150px;
+  text-align: start;
+}
+.searchContener i {
+  color: var(--main1-color);
+}
+.searchContener a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.searchContener ul li {
+  list-style: none;
+  padding: 2px;
+}
+#nav-dropdown-title {
+  display: flex;
+  align-items: center;
+}
+
+#nav-dropdown-title i {
+  margin-left: 50px;
+}
+
+.search {
+  color: #fff;
+  transition: 0.5s;
+
+}
+.button-search {
+  transition: 0.5s;
+  border: none;
+  outline: none;
+  border: 1px var(--main1-color) solid;
+  background-color: var(--main1-color);
+}
+.button-search:hover {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: var(--main1-color);
+  border: 1px var(--main1-color) solid;
+
+}
+.button-search:hover i {
+  /* background-color: #fff; */
+  color: var(--main1-color);
+}
+
+.Form  {
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  border: 2px var(--main1-color) solid;
+}
+.Form:focus{
+  border: none;
+  outline: none;
+}
+.allfoodBox a{  
+  text-decoration: none;
+  color: #000;
+}
+
+.checkout-steps > div {
+  font-weight: bold;
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+.checkout-steps > div.active {
+  font-weight: bold;
+  border-bottom: 0.2rem solid var(--main1-color);
+ color: var(--main1-color);
+}

@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main1-color: #65c18c;
+  --main2-color: #c1f4c5;
+  --main3-color: #ffbed8;
+  --main4-color: #ff7ba9;
+}
+.contenar {
+
+  height:100vh ;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one {
+  width: 100px;
+  height: 100px;
+  transition: 0.2s;
+  border-radius: 100px;
+  position: absolute;
+  animation: ring 2s linear infinite;
+}
+.tow {
+  width: 100px;
+  height: 100px;
+  transition: 0.2s;
+  position: absolute;
+  border-radius: 100px;
+  border-bottom: 4px solid var(--main1-color);
+  animation: ring 2s linear infinite;
+}
+.thre {
+  width: 100px;
+  height: 100px;
+  transition: 0.2s;
+  position: absolute;
+  border-radius: 100px;
+  border-right: 4px solid var(--main2-color);
+  animation: ring 2s linear infinite;
+}
+.fore {
+  width: 100px;
+  height: 100px;
+  transition: 0.2s;
+  position: absolute;
+  border-radius: 100px;
+  border-left: 4px solid var(--main3-color);
+  animation: ring 2s linear infinite;
+}
+.Wite {
+  text-align: center;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  transition: 0.2s;
+  color: var(--main1-color);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

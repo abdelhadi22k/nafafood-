@@ -1,0 +1,12 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+}
+.navBarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbarScroll {
+    color: #fff;
+}

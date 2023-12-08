@@ -1,0 +1,39 @@
+.color {
+    color: #610094;
+    color: #3f0071;
+    color: #150050;
+    color: #000;
+  }
+.portfolioImg{
+    width: 245px;
+    height: 145px;
+}
+.portfolioBox{
+    position: relative;
+}
+
+.detils{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 145px;
+    position:absolute;
+    background-color:#610094 ;
+    opacity: 0.3;
+    transition: 0.2s;
+}
+.detils p{
+    color: #fff;
+    opacity: 0;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.detils:hover {
+    background-color:#000 ;
+    opacity: 0.8;
+
+}
+.detils:hover p{
+    opacity: 1;
+}
